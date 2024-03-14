@@ -491,11 +491,14 @@ ul {
   fill: var(--icon-color-defoult);
 }
 
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus{
   border-color: var(--accent-color);
   }
 
-.customers-link:hover .customers-icon{
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon
+{
 fill: var(--accent-color);
 }
 
@@ -659,7 +662,9 @@ justify-content: center;
 .footer .social-link:hover{
   background-color: var(--bg-accent-color);
 }
-
+.footer .social-link:focus{
+  background-color: var(--bg-accent-color);
+}
 
 
 
