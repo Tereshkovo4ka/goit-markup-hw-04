@@ -23,7 +23,7 @@ html {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -528,7 +528,6 @@ fill: var(--accent-color);
   color: var(--primary-color);
   background-color: var(--bg-light-color);
 }
-
 
 
 
